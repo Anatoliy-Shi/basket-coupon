@@ -1,0 +1,30 @@
+.chosen-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    padding: 25px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.card__title {
+    width: 240px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+}
+
+.total__button {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.total__button:active {
+    background-color: #ccc;
+}
